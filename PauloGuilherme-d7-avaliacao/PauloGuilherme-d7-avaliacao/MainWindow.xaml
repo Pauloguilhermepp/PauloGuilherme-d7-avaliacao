@@ -7,41 +7,44 @@
         mc:Ignorable="d"
         Title="D7 - Avaliação" Height="660" Width="480">
 
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="101" />
-            <RowDefinition />
-        </Grid.RowDefinitions>
+    <Grid x:Name="UserGrid">
+
+        <Label FontSize="24" 
+               HorizontalAlignment="Center" VerticalAlignment="Top" 
+               Margin="0 60 1 0" Grid.Row="0" Content="Autenticação de usuário"
+               FontWeight="Bold" FontFamily="Inter"/>
 
 
-        <Label FontSize="24"
-               HorizontalAlignment="Center" FontFamily="Inter" FontWeight="Bold"
-               Content="Autentificação de usuário" Width="298" Margin="0,60,0,0"/>
-
-        <Grid x:Name="UserGrid" Grid.Row="1">
-
-            <Grid Name="UserLogin">
-                <Grid.RowDefinitions>
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                </Grid.RowDefinitions>
+        <TextBlock FontSize="16"
+                   HorizontalAlignment="Left" VerticalAlignment="Top" 
+                   Margin="60 145 0 0" Grid.Row="1" TextWrapping="Wrap" 
+                   Text="Usuário" FontFamily="Inter"/>
+        
+        <TextBox FontSize="16"
+            HorizontalAlignment="Center" VerticalAlignment="Top"
+            Margin="0 180 0 0" Grid.Row="1" TextWrapping="Wrap"
+            Text="{Binding Email}" FontFamily="Inter"
+            Width="360" Height="60" Background="#D9D9D9"/>
 
 
-                <Label Grid.Row="0" Content="Usuário" Margin="60,10,364,143" RenderTransformOrigin="0.571,-0.248" />
-                <TextBox Grid.Row="0" Width="360" Height="60" HorizontalAlignment="Center" 
-                         Text="{Binding User}" Background="#D9D9D9" />
+        <TextBlock FontSize="16"
+                   HorizontalAlignment="Left" VerticalAlignment="Top" 
+                   Margin="60 325 0 0" Grid.Row="2" TextWrapping="Wrap" 
+                   Text="Senha" FontFamily="Inter"/>
+        
+        <TextBox FontSize="16"
+            HorizontalAlignment="Center" VerticalAlignment="Top"
+            Margin="0 360 0 0" Grid.Row="2" TextWrapping="Wrap"
+            Text="{Binding Password}" FontFamily="Inter"
+            Width="360" Height="60" Background="#D9D9D9"/>
 
-                <Label Grid.Row="1" Content="Senha" Margin="60,10,364,143" RenderTransformOrigin="0.482,1.465" />
-                <TextBox Grid.Row="1" Width="360" Height="60" HorizontalAlignment="Center" 
-                         Text="{Binding Password}" Background="#D9D9D9"/>
 
-                <Button Grid.Row="2" Width="240" Height="60" Content="Acessar" Click="AccessSystem"
-                                HorizontalAlignment="Center"
-                                VerticalAlignment="Center"
-                                Background="#D9D9D9"/>
-            </Grid>
+        <Button FontSize="16"
+                HorizontalAlignment="Center" VerticalAlignment="Bottom"
+                Margin="0 0 0 60" Grid.Row="3"
+                Content="Acessar"  Width="240" Height="60"
+                FontFamily="Inter" Click="AccessSystem"
+                Background="#D9D9D9"/>
 
-        </Grid>
     </Grid>
 </Window>

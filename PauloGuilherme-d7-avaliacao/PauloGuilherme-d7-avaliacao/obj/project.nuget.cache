@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "aOBpmuRdok12MnXHNkm5+rwajsC67oGRDLRFsw7MPJpbcdhicJRSDKbneBpUVYL8fsWpITY59sPLo1SpewhUxA==",
+  "dgSpecHash": "tLKtpU54uIYdpZx757FyVrxHzJ+Suqm1lphWxD+fab3zUUFsgduN1WBjPl3M3ltwuAt1e54uPHzvu/hinZ3aVQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\beatr\\OneDrive\\Documentos\\Amor\\PauloGuilherme-d7-avaliacao\\PauloGuilherme-d7-avaliacao\\PauloGuilherme-d7-avaliacao\\PauloGuilherme-d7-avaliacao.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\beatr\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\beatr\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.9\\microsoft.data.sqlite.core.6.0.9.nupkg.sha512",
     "C:\\Users\\beatr\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.9\\microsoft.entityframeworkcore.6.0.9.nupkg.sha512",
     "C:\\Users\\beatr\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.9\\microsoft.entityframeworkcore.abstractions.6.0.9.nupkg.sha512",

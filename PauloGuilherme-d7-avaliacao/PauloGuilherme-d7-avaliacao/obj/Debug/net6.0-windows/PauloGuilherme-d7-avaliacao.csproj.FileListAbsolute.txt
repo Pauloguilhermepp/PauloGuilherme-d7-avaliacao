@@ -53,3 +53,4 @@ C:\Users\beatr\OneDrive\Documentos\Amor\PauloGuilherme-d7-avaliacao\PauloGuilher
 C:\Users\beatr\OneDrive\Documentos\Amor\PauloGuilherme-d7-avaliacao\PauloGuilherme-d7-avaliacao\PauloGuilherme-d7-avaliacao\obj\Debug\net6.0-windows\PauloGuilherme-d7-avaliacao.pdb
 C:\Users\beatr\OneDrive\Documentos\Amor\PauloGuilherme-d7-avaliacao\PauloGuilherme-d7-avaliacao\PauloGuilherme-d7-avaliacao\obj\Debug\net6.0-windows\PauloGuilherme-d7-avaliacao.genruntimeconfig.cache
 C:\Users\beatr\OneDrive\Documentos\Amor\PauloGuilherme-d7-avaliacao\PauloGuilherme-d7-avaliacao\PauloGuilherme-d7-avaliacao\obj\Debug\net6.0-windows\ref\PauloGuilherme-d7-avaliacao.dll
+C:\Users\beatr\OneDrive\Documentos\Amor\PauloGuilherme-d7-avaliacao\PauloGuilherme-d7-avaliacao\PauloGuilherme-d7-avaliacao\bin\Debug\net6.0-windows\BCrypt.Net-Next.dll
