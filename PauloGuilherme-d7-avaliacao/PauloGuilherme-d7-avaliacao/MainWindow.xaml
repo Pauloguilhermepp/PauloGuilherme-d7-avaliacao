@@ -5,8 +5,43 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PauloGuilherme_d7_avaliacao"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="D7 - Avaliação" Height="660" Width="480">
 
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="101" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+
+        <Label FontSize="24"
+               HorizontalAlignment="Center" FontFamily="Inter" FontWeight="Bold"
+               Content="Autentificação de usuário" Width="298" Margin="0,60,0,0"/>
+
+        <Grid Grid.Row="1">
+
+            <Grid Name="UserLogin">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+
+
+                <Label Grid.Row="0" Content="Usuário" Margin="60,10,364,143" RenderTransformOrigin="0.571,-0.248" />
+                <TextBox Grid.Row="0" Width="360" Height="60" HorizontalAlignment="Center" 
+                         Text="{Binding Usuario}" Background="#D9D9D9" />
+
+                <Label Grid.Row="1" Content="Senha" Margin="60,10,364,143" />
+                <TextBox Grid.Row="1" Width="360" Height="60" HorizontalAlignment="Center" 
+                         Text="{Binding Senha}" Background="#D9D9D9"/>
+
+                <Button Grid.Row="2" Width="240" Height="60" Content="Acessar"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Background="#D9D9D9"/>
+            </Grid>
+
+        </Grid>
     </Grid>
 </Window>
